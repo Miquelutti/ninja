@@ -1,0 +1,69 @@
+body{
+	overflow-x: hidden;
+}
+h1{
+	font-weight: bolder !important;
+}
+h1:hover{
+	color:#0c6483;
+	transition: 0.5s;
+}
+.user-area{
+	position: absolute;
+	top:16%;
+	left:60%;
+	font-weight: bold;
+}
+th{
+	background-color: black;
+	color:cyan;
+}
+.tabelas-area{
+	position: absolute;
+	top:20%;
+/*	background-color: white;*/
+}
+.user-input{
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;
+	border:5px solid #ffffff;
+	background-color: #24fefe;
+	outline: none;
+	padding: 10px;
+}
+::placeholder{
+	color:#333333;
+}
+.enviar{
+	color:cyan !important;
+	background-color: black;
+	border:1px solid black;
+	border-radius: 20px;
+	width: 100%;
+}
+.excluir-btn{
+	color:cyan !important;
+	background-color: black;
+	border:1px solid black;
+	border-radius: 20px;	
+}
+.enviar:hover{
+	color:black !important;
+	background-color: cyan;
+	transition: 0.5s;
+}
+.excluir-btn:hover{
+	color:black !important;
+	background-color: cyan;
+	transition: 0.5s;
+}
+
+.checkboxtable{
+	position: relative;
+	left:40%;
+}
+
+td {
+	text-align: center;
+}
